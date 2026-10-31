@@ -35,7 +35,7 @@ echo          Windows update logs older than 30 days).
 echo  Keeps : Downloads, Documents, Pictures, Videos, Desktop,
 echo          OneDrive, .ssh, .aws, AI tool sessions.
 echo.
-echo  Slow boot on battery? Run CleanerV6_PERFORMANCE.bat -
+echo  Slow boot on battery? Run Clean-Performance.bat -
 echo  that is power throttling, not junk (the report explains).
 echo.
 if "%ADMIN%"=="no" echo  NOTE: not elevated - Windows.old, memory dump and other

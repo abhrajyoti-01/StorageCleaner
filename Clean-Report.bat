@@ -30,7 +30,7 @@ set "RC=%ERRORLEVEL%"
 echo.
 echo ============================================================
 echo  Report complete - nothing deleted (exit code %RC%)
-echo  To clean for real, run CleanerV6_DEEP.bat as Administrator.
+echo  To clean for real, run Clean-Deep.bat as Administrator.
 echo ============================================================
 goto :done
 
