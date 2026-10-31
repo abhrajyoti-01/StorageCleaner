@@ -9,6 +9,7 @@ safe candidates, never override a veto.
 ![Python](https://img.shields.io/badge/python-3.8%2B-3776ab)
 ![Tests](https://img.shields.io/badge/tests-151%20passing-2ea44f)
 ![Brain](https://img.shields.io/badge/AI-brain%20v9%20MLP-8250df)
+![License](https://img.shields.io/badge/license-MIT-2ea44f)
 
 Pure Python standard library + numpy. No install step, no background service,
 no telemetry. Deletion always asks first unless you pass `-q`.
@@ -224,4 +225,8 @@ Run the tests with `python test_suite.py` — exit code 0 means everything passe
 
 ## License
 
-No license yet — all rights reserved by the author until one is added.
+[MIT](LICENSE) © 2026 abhrajyoti-01 — free to use, modify and redistribute.
+
+Note: this tool deletes files by design. The MIT "AS IS" warranty disclaimer
+applies — review the `--report` output before cleaning, and keep anything
+valuable backed up.
