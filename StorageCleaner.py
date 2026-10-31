@@ -241,10 +241,14 @@ def safety_veto(path, whole_dir=True):
         return True, 'state folder: %s' % last
     if STRONG_CACHE_NAME.match(ln):
         return False, 'strong cache name: %s' % last
-    # Content check: a state-shaped file at the top level means real data.
+    # Content check: a state-shaped FILE at the top level means real data.
+    # Directories never count - a NuGet-style package folder named like a
+    # file (microsoft.data.sqlite) is a package, not a state file.
     try:
         with os.scandir(p) as it:
             for entry in it:
+                if not entry.is_file(follow_symlinks=False):
+                    continue
                 low = entry.name.lower()
                 if VETO_STATE_NAMES.match(low):
                     return True, 'state file: %s' % entry.name
