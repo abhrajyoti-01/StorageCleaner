@@ -1,0 +1,346 @@
+{
+ "brain": "v9",
+ "generated": "2026-10-31",
+ "holdout_accuracy": 0.994,
+ "holdout_f1": 0.994,
+ "hard_neg_fp": 0,
+ "hard_pos_recall": 1.0,
+ "n_real": 614,
+ "n_synth": 4000,
+ "learned_junk_tokens": [
+  {
+   "token": "codecache",
+   "junk_rate": 1.0,
+   "seen": 113
+  },
+  {
+   "token": "shadercache",
+   "junk_rate": 1.0,
+   "seen": 61
+  },
+  {
+   "token": "gpucache",
+   "junk_rate": 1.0,
+   "seen": 57
+  },
+  {
+   "token": "dist",
+   "junk_rate": 1.0,
+   "seen": 50
+  },
+  {
+   "token": "tmp",
+   "junk_rate": 1.0,
+   "seen": 50
+  },
+  {
+   "token": "crashpad",
+   "junk_rate": 1.0,
+   "seen": 42
+  },
+  {
+   "token": "build",
+   "junk_rate": 1.0,
+   "seen": 40
+  },
+  {
+   "token": "crashdumps",
+   "junk_rate": 1.0,
+   "seen": 22
+  },
+  {
+   "token": "inetcache",
+   "junk_rate": 1.0,
+   "seen": 21
+  },
+  {
+   "token": "tooloutput",
+   "junk_rate": 1.0,
+   "seen": 20
+  },
+  {
+   "token": "d3dscache",
+   "junk_rate": 1.0,
+   "seen": 20
+  },
+  {
+   "token": "browsercache",
+   "junk_rate": 1.0,
+   "seen": 20
+  },
+  {
+   "token": "imagecache",
+   "junk_rate": 1.0,
+   "seen": 20
+  },
+  {
+   "token": "msplaywright",
+   "junk_rate": 1.0,
+   "seen": 20
+  },
+  {
+   "token": "webcache",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "txgamedownload",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "obj",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "cacheddata",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "blobcache",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "cachedir",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "templogs",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "pnpmcache",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "huggingface",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "torch",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "oldbackupbak",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "defaultboot",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "artifacts",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "htmlcache",
+   "junk_rate": 1.0,
+   "seen": 19
+  },
+  {
+   "token": "assetcache",
+   "junk_rate": 1.0,
+   "seen": 18
+  },
+  {
+   "token": "globalcache",
+   "junk_rate": 1.0,
+   "seen": 18
+  },
+  {
+   "token": "autofillaimodelcache",
+   "junk_rate": 1.0,
+   "seen": 15
+  },
+  {
+   "token": "gpupersistentcache",
+   "junk_rate": 1.0,
+   "seen": 13
+  },
+  {
+   "token": "log",
+   "junk_rate": 0.971,
+   "seen": 35
+  },
+  {
+   "token": "cache",
+   "junk_rate": 0.901,
+   "seen": 352
+  },
+  {
+   "token": "steam",
+   "junk_rate": 0.771,
+   "seen": 48
+  },
+  {
+   "token": "freshapp",
+   "junk_rate": 0.727,
+   "seen": 55
+  },
+  {
+   "token": "apiparrot",
+   "junk_rate": 0.727,
+   "seen": 44
+  },
+  {
+   "token": "claudeclinodejs",
+   "junk_rate": 0.714,
+   "seen": 42
+  },
+  {
+   "token": "logs",
+   "junk_rate": 0.7,
+   "seen": 240
+  }
+ ],
+ "learned_keep_tokens": [
+  {
+   "token": "bin",
+   "junk_rate": 0.0,
+   "seen": 79
+  },
+  {
+   "token": "cookies",
+   "junk_rate": 0.0,
+   "seen": 69
+  },
+  {
+   "token": "lib",
+   "junk_rate": 0.0,
+   "seen": 62
+  },
+  {
+   "token": "tasks",
+   "junk_rate": 0.0,
+   "seen": 49
+  },
+  {
+   "token": "localstate",
+   "junk_rate": 0.0,
+   "seen": 47
+  },
+  {
+   "token": "logindata",
+   "junk_rate": 0.0,
+   "seen": 46
+  },
+  {
+   "token": "extensions",
+   "junk_rate": 0.0,
+   "seen": 42
+  },
+  {
+   "token": "src",
+   "junk_rate": 0.0,
+   "seen": 32
+  },
+  {
+   "token": "geforcenow",
+   "junk_rate": 0.0,
+   "seen": 27
+  },
+  {
+   "token": "ssh",
+   "junk_rate": 0.0,
+   "seen": 26
+  },
+  {
+   "token": "templates",
+   "junk_rate": 0.0,
+   "seen": 25
+  },
+  {
+   "token": "network",
+   "junk_rate": 0.0,
+   "seen": 25
+  },
+  {
+   "token": "aws",
+   "junk_rate": 0.0,
+   "seen": 25
+  },
+  {
+   "token": "history",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "indexeddb",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "localstorage",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "sessionstorage",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "cachenotes",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "tempphotos",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "cachebackup",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "workspacestorage",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "globalstorage",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "npm",
+   "junk_rate": 0.0,
+   "seen": 24
+  },
+  {
+   "token": "default",
+   "junk_rate": 0.0,
+   "seen": 23
+  },
+  {
+   "token": "python",
+   "junk_rate": 0.0,
+   "seen": 23
+  }
+ ],
+ "protected_roots": [
+  "Downloads",
+  "Documents",
+  "Pictures",
+  "Videos",
+  "Desktop",
+  "OneDrive",
+  ".ssh",
+  ".aws",
+  "GeForce NOW recordings"
+ ],
+ "notes": "v9 honest metrics: 614 real + 4000 synth samples, 0 hard-negative false positives, hard-positive recall 1.00. The cleaner also enforces a safety_veto() before this model runs."
+}

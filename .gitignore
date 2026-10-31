@@ -1,0 +1,10 @@
+# run artifacts, regenerated on every scan/clean
+StorageCleaner.log
+__pycache__/
+*.pyc
+
+# local audit/calibration working state (machine-specific reports)
+.perch/
+
+# assistant working files
+.zcode/
